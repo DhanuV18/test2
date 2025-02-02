@@ -10,7 +10,7 @@
 }
 
 .card{
-    width: 20rem; 
+    width: auto; 
     height: 30rem;
     overflow: hidden;
     border-radius: 10px;
@@ -117,7 +117,7 @@
     }
 
     .card{
-        width: 30rem;
+        width: auto;
     }
 
     .small__heading{

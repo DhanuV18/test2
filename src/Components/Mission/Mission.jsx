@@ -18,7 +18,7 @@ const Mission = () => {
   return (
     <section className='mission-section'>
       <div className='picture'>
-     <div className='layer'></div>
+      <div className='layer'></div>
         <div className='picture__text'>
           <div className='container mission__container'>
             {/* Mission Section */}
