@@ -1,0 +1,41 @@
+
+  .mySwiper2 .swiper-slide {
+    text-align: center;
+    font-size: 1.8rem;
+    background: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+
+
+       
+    /* Center slide text vertically */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+  }
+  
+  
+  .mySwiper2 .swiper-slide img {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 2rem 0;
+
+  }
+
+  .mySwiper2 .swiper-wrapper{
+    height: 50rem;
+    width: 100rem;
+
+  }
+
+
+  .mySwiper2{
+    /* margin-top: -5rem; */
+    margin-bottom: 15rem;
+ 
+  }

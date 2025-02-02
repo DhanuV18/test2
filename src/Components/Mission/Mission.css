@@ -1,0 +1,161 @@
+/* .mission__heading{
+    text-align: center;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    color: black;
+    z-index: -5;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.mission2{
+    background-image: url('../../assets/architecture-3588171_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: 5;
+
+}
+
+*/
+
+/* Parallex website */
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    /* background-color: rgba(4, 10, 68, 0.3); */
+    width: 100%;
+    height: 100%;
+    z-index: -10;    
+}
+
+.picture{
+    background-image: url('../../assets/g.jpg');
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8;
+    z-index: -5;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+
+}
+
+.picture__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    letter-spacing: 3px;
+    z-index: 15;
+    padding: 1rem;
+}
+
+.mission__text{
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.vission__text{
+    font-size: 2rem;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+
+}
+.mission__heading{
+    border-bottom: 2px solid white;
+    padding: 1.2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.vission__heading{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 1.2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.mission__container{
+    padding: 1.2rem 0;
+}
+
+@media screen and (min-width: 768px){
+    .mission__heading{
+        border-bottom: 2px solid white;
+        padding: 1.2rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .mission__text{
+        font-size: 3rem;
+        color: white;
+    }
+    
+    .vission__heading{
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        padding: 1.2rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .vission__text{
+        font-size: 3rem;
+        color: white;
+    }
+    .picture__text{
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        color: white;
+        font-size: 6rem;
+        letter-spacing: 3px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .picture__text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: 0%;
+        bottom: 0%;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        letter-spacing: 3px;
+        
+    }
+
+}

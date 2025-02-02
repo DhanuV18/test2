@@ -1,0 +1,100 @@
+*{
+    list-style-type: none;
+}
+
+
+
+.part__one{
+    text-align: left;
+    margin: 2rem 0;
+    padding: 2rem;
+      
+}
+
+.part__two{
+    text-align: left;
+    margin: 2rem 0;
+    padding: 2rem;
+      
+}
+
+
+
+.part__one >h3,
+.part__one > h2
+
+{
+    padding: 2rem 0;
+    color: var(--color-primary-800);
+    text-align: center;
+}
+
+.part__one > p{
+    text-align: center;
+    color: var(--color-primary-800);
+}
+
+
+.part__two > h3,
+.part__two > h2
+{
+
+    margin: 2rem 0;
+    color: var(--color-primary-800);
+}
+
+.part__two > p{
+    color: var(--color-primary-800);
+    margin: 1rem 0;
+}
+
+ul > li{
+    color: var(--color-primary-800);
+    padding: 0 2rem ;
+}
+
+
+.part__three > h3,
+.part__three > h2
+{
+
+    margin: 2rem 0;
+    color: var(--color-primary-800);
+}
+
+
+
+
+
+.part__three > p{
+    color: var(--color-primary-800);
+    margin: 1rem 0;
+}
+
+ul > li{
+    color: var(--color-primary-800);
+    padding: 0 2rem ;
+}
+
+
+
+.heading-three{
+    font-size: 3rem;
+}
+
+.part__four > h2{
+    text-align: center;
+    color: var(--color-primary-800);
+    padding: 2rem 0;
+}
+
+
+.global > h3,
+.global > p,
+.global > h4
+
+{
+    color: var(--color-primary-800);
+    margin: 2rem 0;
+}
+

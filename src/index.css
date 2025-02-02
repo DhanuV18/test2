@@ -1,0 +1,276 @@
+:root {
+    --color-primary: #38B6FF;
+    --color-secondary: rgb(21, 126, 186);
+    --color-heading: #000000;
+    --color-body: rgb(143, 207, 247);
+    --color-white: #fff;
+    /* --color-nav-background: rgba(246, 246, 246, 0.8); */
+    /* --color-nav-background-thick: rgb(246, 246, 246); */
+
+    --color-primary-100: #eff6ff;
+    --color-primary-200: #b4d3fe;
+    --color-primary-300: #82b6fd;
+    --color-primary-400: #5098fc;
+    --color-primary-500: #03449d;
+    --color-primary-600: #034caf;
+    --color-primary-700: #02367d;
+    --color-primary-800: #01214b;
+    --color-primary-900: #000b19;
+}
+
+*,
+*::before,
+*::after 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    max-width: 1140px;
+    margin: 0 auto;   
+}
+
+
+a:visited{
+    color: var(--color-primary-600);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Typography */
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--color-body);
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--color-heading);
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 2.2rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.8rem;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+
+.link-arrow {
+    color: var(--color-primary-500);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.8rem 0;
+}
+
+.link-arrow--primary {
+    color: var(--color-secondary);
+}
+
+.link-arrow--secondary {
+    color: var(--color-primary-600);
+}
+
+.link-arrow::after {
+    content: '🠦';
+    font-size: 22px;
+    margin-left: 5px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    transition: all 0.15s;
+}
+
+.link-arrow:hover::after {
+    letter-spacing: 6px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .link-arrow {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* Icons */
+
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon--small {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.1rem 0.2rem;
+}
+
+.icon--white {
+    fill: var(--color-white);
+}
+
+.icon--orange {
+    fill: rgb(211, 56, 9);
+}
+
+.icon--red {
+    fill: rgb(192, 11, 11);
+}
+
+
+/* Button */
+
+.btn {
+    font-size: 2rem;
+    margin:  0;
+    padding: 1.2rem 1.8rem;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+
+.btn--primary {
+    background-color: var(--color-primary);
+    color: white;
+
+}
+
+
+
+
+.btn--block {
+    display: inline-block;
+    width: 100%;
+}
+
+.btn--outline {
+    border: 3px solid var(--color-primary-500);
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.btn--oval{
+    border-radius: 50px;
+    padding: 1.5rem 3rem;
+}
+
+/* Blocks */
+
+.block {
+    --padding-vertical: 12.5rem;
+    padding: var(--padding-vertical) 2rem;
+}
+
+.block__header {
+    text-align: center;
+    /* margin-bottom: 4rem; */
+}
+
+.block__heading {
+    /* margin-top: 2rem; */
+}
+
+.block--dark {
+    background-color: var(--color-primary-100);
+    color: #7b858b;
+}
+
+.block--dark .block__heading {
+    color: var(--color-primary-500);
+}
+
+.block--skewed-right {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
+
+.block--skewed-left {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
+}
