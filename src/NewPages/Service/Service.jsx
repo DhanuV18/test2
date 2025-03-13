@@ -16,7 +16,7 @@ import Cards from '../../Components/Cards/Cards';
 import image1 from '../../assets/item1.jpg'
 import image2 from '../../assets/item2.jpg'
 import image3 from '../../assets/item3.jpg'
-import image4 from '../../assets/item4.png'
+import image4 from '../../assets/item4.jpg'
 import image5 from '../../assets/item5.jpg'
 import image6 from '../../assets/item6.jpg'
 import image7 from '../../assets/item7.jpg'
