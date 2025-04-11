@@ -1,0 +1,15 @@
+.container2{
+    padding: 0;
+}
+
+.block2{
+    margin: 2rem 0;
+    padding: 5rem 0;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.block2 .block__heading{
+    color: var(--color-primary-700);
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}

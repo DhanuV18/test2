@@ -1,0 +1,16 @@
+
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    margin-top: 10rem;
+    margin-bottom: -10rem;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+
+}
+
+.heading{
+    font-size: 2rem;
+}
